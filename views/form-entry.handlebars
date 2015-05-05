@@ -1,0 +1,13 @@
+<form action="/entries/{{nid}}" method="post">
+    <h1>{{t "Create post"}}</h1>
+    <label>
+        <span>{{{t "Title:"}}}</span>
+        <input type="text" name="title" value="{{title}}" />
+    </label>
+    <label>
+        <span>{{{t "Body:"}}}</span>
+        <textarea name="body" rows="10">{{body}}</textarea>
+    </label>
+    <input type="hidden" value="{{nid}}" />
+    <input type="submit" name="op" value="{{t "Submit"}}"/>
+</form>

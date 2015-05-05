@@ -1,0 +1,11 @@
+{
+	"Title:": "Cím:",
+	"Body:": "Leírás:",
+	"Entry {{entryId}} does not exist": "Bejegyzés {{entryId}} nem létezik",
+	"Delete": "Törlés",
+	"Create post": "Új bejegyzés",
+	"Blog": "Blog",
+	"Home": "Címlap",
+	"Posts": "Bejegyzések",
+	"Submit": "Submit"
+}

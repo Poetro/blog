@@ -1,0 +1,6 @@
+{{> entry/entry}}
+<form method="post" action="/entries">
+	<a href="/entries/{{nid}}/edit">{{t "Edit"}}</a>
+	<input name="nid" value="{{nid}}" type="hidden" />
+	<input type="submit" name="op" value="{{t "Delete"}}"/>
+</form>
